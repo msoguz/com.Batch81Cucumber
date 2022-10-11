@@ -8,12 +8,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags="@All", // iki tag'i ayni anda calistirmak istersek "@group1 or group2" seklinde yazariz.
+        tags="@PracticeTC07_01", // iki tag'i ayni anda calistirmak istersek "@group1 or group2" seklinde yazariz.
         dryRun = false
 )
-
-
-
 
 public class Runner {
     /*
@@ -26,7 +23,7 @@ public class Runner {
         2-)  @CucumberOptions notasyonu icinde;
         features: Runner dosyasinin feature dosyasini nereden bulacagini tarif eder
         glue : stepDefinitions yolunu belirtiriz
-        tags: Hangi tag'i calistirmak istersek eonu belli eder.
+        tags: Hangi tag'i calistirmak istersek onu belli eder.
 
         dryRun : iki secenek vardir
         dryRun=True ; dersek testimizi calistirmadan eksik adimlari bize verir

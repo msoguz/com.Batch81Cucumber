@@ -1,1 +1,12 @@
+pages\AmazonPage.class
+stepDefinitions\AmazonStepDefinition.class
+pages\PracticeTC07Page.class
 runners\Runner.class
+utilities\ReusableMethods$1.class
+utilities\Driver.class
+stepDefinitions\Practice_TC_07StepDefinition.class
+pages\BrcPage.class
+stepDefinitions\HepsiBuradaStepDefinition.class
+utilities\ConfigReader.class
+stepDefinitions\BlueRentaCarStepDefinition.class
+utilities\ReusableMethods.class
