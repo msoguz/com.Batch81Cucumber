@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags="@all", // iki tag'i ayni anda calistirmak istersek "@group1 or group2" seklinde yazariz.
+        tags="@PracticeAmazon", // iki tag'i ayni anda calistirmak istersek "@group1 or group2" seklinde yazariz.
         dryRun = false
 )
 
