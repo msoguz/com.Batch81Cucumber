@@ -111,14 +111,12 @@ public class AmazonStepDefinition {
     @Given("kullanici {string} sayfasina gider")
     public void kullaniciSayfasinaGider(String istenenUrl) {
         Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
-
     }
 
     @When("url'nin {string} icerdigini test edelim")
     public void urlNinIcerdiginiTestEdelim(String arananKelime) {
         String actualUrl = Driver.getDriver().getCurrentUrl();
         Assert.assertTrue(actualUrl.contains(arananKelime));
-
     }
 
 
