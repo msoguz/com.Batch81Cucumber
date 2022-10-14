@@ -11,6 +11,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 public class AmazonStepDefinition {
+
     AmazonPage amazonPage=new AmazonPage();
     @Given("kullanici amazon sayfasina gider")
     public void kullaniciAmazonSayfasinaGider() {
@@ -128,5 +129,7 @@ public class AmazonStepDefinition {
             throw new RuntimeException(e);
         }
     }
+
+
 }
 

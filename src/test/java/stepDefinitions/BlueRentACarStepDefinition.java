@@ -19,11 +19,10 @@ public class BlueRentACarStepDefinition {
         Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
     }
 
-    @Then("Login yazisina tiklar")
-    public void loginYazisinaTiklar() {
-        brc.login.click();
-
-    }
+   // @Then("Login yazisina tiklar")
+  //  public void loginYazisinaTiklar() {
+   //     brc.login.click();
+  //  }
 
     @And("gecersiz username girer")
     public void gecersizUsernameGirer() {

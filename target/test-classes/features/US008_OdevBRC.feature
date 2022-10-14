@@ -9,7 +9,6 @@ Feature: US008 Scenario Outline Kullanimi
     And "<gecersizPass>" password girer
     And brc Login butonuna basar
     Then brc sayfasina giris yapilamadigini kontrol eder
-    And kullanici 3 sn bekler
     And  sayfayi kapatir
 
     Examples: :

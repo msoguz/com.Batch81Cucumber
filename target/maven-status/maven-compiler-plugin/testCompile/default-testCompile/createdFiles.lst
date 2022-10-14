@@ -2,9 +2,12 @@ stepDefinitions\ClassCalismasiStepDefinition.class
 pages\OdevBRCPage.class
 stepDefinitions\AmazonStepDefinition.class
 utilities\ReusableMethods$1.class
+stepDefinitions\PracticeTestPageStepDefinition.class
+pages\GuruPage.class
 pages\PracticeAmazonPage.class
 pages\BrcPage.class
 stepDefinitions\HepsiBuradaStepDefinition.class
+pages\HerokuPage.class
 stepDefinitions\PracticeAmazonStepDef.class
 utilities\ReusableMethods.class
 pages\AmazonPage.class
@@ -15,4 +18,8 @@ stepDefinitions\OdevBRCStepDefinition.class
 utilities\Driver.class
 stepDefinitions\Practice_TC_07StepDefinition.class
 stepDefinitions\BlueRentACarStepDefinition.class
+stepDefinitions\Hooks.class
+pages\PracticeTestPage.class
 utilities\ConfigReader.class
+stepDefinitions\HerokuStepDefinition.class
+stepDefinitions\GuruStepDefinition.class
