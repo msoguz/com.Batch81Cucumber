@@ -1,8 +1,6 @@
 package utilities;
 
 
-
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -45,7 +43,6 @@ public class Driver {
 
             }
 
-
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         }
@@ -57,7 +54,12 @@ public class Driver {
             driver.close();
             driver=null;
         }
-
     }
 
+    public static void quitDriver(){
+        if (driver!=null){ // driver'a deger atanmissa
+            driver.quit();
+            driver=null;
+        }
+    }
 }
